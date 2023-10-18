@@ -32,6 +32,9 @@ public class Switch {
             case "Ashok Kurapati":
                 System.out.println("Student name: " + name);
                 System.out.println("grads: " + grads[1]);
+                if(grads.equals("B")){
+                    System.out.println("you need to work mork");
+                }
                 break;
 
             default:
